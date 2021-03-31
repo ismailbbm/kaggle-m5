@@ -8,6 +8,8 @@ Summary: 5th edition of the famous M prediction [competitions](https://en.wikipe
 
 This solution achieved a top 2% score awarding a silver medal.
 
+TO DO: add models to the repo
+
 # Model
 
 The model is based on a gradient boosting algorithm. I used lightgbm as it natively supports categorical variables without having to one-hot encode them, prior to feeding them to the model, which would have resulted in an overblown memory dataframe.
